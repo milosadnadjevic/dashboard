@@ -2,9 +2,9 @@ import React from 'react'
 
 import { ArrowUpIcon, BellIcon, ChartBarIcon, CreditCardIcon, DocumentSearchIcon, ExternalLinkIcon, HomeIcon, MailIcon } from '@heroicons/react/solid'
 
-function Sidebar() {
+const Sidebar = () => {
   return (
-    <div className='bg-slate-800 flex-none w-14 sm:w-20 h-screen'>Sidebar
+    <div className='bg-slate-800 flex-none w-14 sm:w-20 h-screen'>
     <div className='h-20 items-center flex'>
         <HomeIcon width={40} className='text-gray-300 left-3 sm:left-6 fixed'/>
     </div>

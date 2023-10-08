@@ -2,7 +2,7 @@ import { TextInput } from '@tremor/react'
 import { SearchIcon } from '@heroicons/react/outline'
 import React from 'react'
 
-function Navbar() {
+const Navbar = () => {
   return (
     <div id='top' className='relative w-full sm:flex jultify-between items-center p-2'
     >
