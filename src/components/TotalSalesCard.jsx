@@ -1,16 +1,16 @@
 import React from 'react'
 import { Card, Metric, Text, Flex, BadgeDelta } from '@tremor/react'
 
-const CardItem = () => {
+const TotalSalesCard = () => {
   return (
     <Card className="w-xs" decoration="top" decorationColor="indigo">
     <Flex>
-        <Text>Sales</Text>
-        <BadgeDelta deltaType='moderateIncrease'>+12.5%</BadgeDelta>      
+        <Text>Total Sales</Text>
+        <BadgeDelta deltaType='moderateIncrease'>+8.5%</BadgeDelta>      
     </Flex>
-    <Metric>$ 34,743</Metric>
+    <Metric>$ 156.783</Metric>
   </Card>
   )
 }
 
-export default CardItem
+export default TotalSalesCard
