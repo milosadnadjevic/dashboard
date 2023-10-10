@@ -24,31 +24,31 @@ import {
 
 const stocks = [
   {
-    name: "Off Running AG",
+    name: "Digital Advertising",
     value: 10456,
     performance: "6.1%",
     deltaType: "increase",
   },
   {
-    name: "Not Normal Inc.",
+    name: "Content Marketing",
     value: 5789,
     performance: "1.2%",
     deltaType: "moderateDecrease",
   },
   {
-    name: "Logibling Inc.",
+    name: "Social Media",
     value: 4367,
     performance: "2.3%",
     deltaType: "moderateIncrease",
   },
   {
-    name: "Raindrop Inc.",
+    name: "Email Marketing",
     value: 3421,
     performance: "0.5%",
     deltaType: "moderateDecrease",
   },
   {
-    name: "Mwatch Group",
+    name: "Search Engine Optimization",
     value: 1432,
     performance: "3.4%",
     deltaType: "decrease",
@@ -73,13 +73,13 @@ const SalesItem = () => {
           </TabList>
         </TabGroup>
       </Flex>
-      <Text className="mt-8">Portfolio Value</Text>
+      <Text className="mt-8">Total Budget</Text>
       <Metric>$ 25,465</Metric>
       <Divider />
       <Text className="mt-8">
-        <Bold>Asset Allocation</Bold>
+        <Bold>Marketing Budget</Bold>
       </Text>
-      <Text>1 Asset class - 5 Holdings</Text>
+      <Text>1 Asset class - 5 Accounts</Text>
       {selectedIndex === 0 ? (
         <DonutChart
           data={stocks}
@@ -93,9 +93,9 @@ const SalesItem = () => {
         <>
           <Flex className="mt-8" justifyContent="between">
             <Text className="truncate">
-              <Bold>Stocks</Bold>
+              <Bold>Type</Bold>
             </Text>
-            <Text>Since transaction</Text>
+            <Text>Amount Spent</Text>
           </Flex>
           <List className="mt-4">
             {stocks.map((stock) => (

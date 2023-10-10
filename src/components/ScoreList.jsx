@@ -3,28 +3,28 @@ import { Card, List, ListItem, Title } from "@tremor/react";
 
 const cities = [
     {
-      city: "Athens",
-      rating: "2 open PR",
+      city: "New York",
+      rating: "21,3%",
     },
     {
-      city: "Luzern",
-      rating: "1 open PR",
+      city: "Los Angeles",
+      rating: "17,8%",
     },
     {
-      city: "Zürich",
-      rating: "0 open PR",
+      city: "San Francisco",
+      rating: "10,5%",
     },
     {
-      city: "Vienna",
-      rating: "1 open PR",
+      city: "Chicago",
+      rating: "6%",
     },
     {
-      city: "Ermatingen",
-      rating: "0 open PR",
+      city: "Denver",
+      rating: "5%",
     },
     {
-      city: "Lisbon",
-      rating: "0 open PR",
+      city: "Houston",
+      rating: "3,5%",
     }
   ]
 
