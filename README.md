@@ -4,7 +4,11 @@ ________________________________________________________________________________
 
 This repository contains the source code for an e-commerce Dashboard application. The Dashboard provides a 
 comperhensive view of essential metrics and data related to an e-commerce website, offering insights to help
-manage and optimaze the online store.
+manage and optimaze the online store. <br>
+The dashboard is fully responsive, ensuring a smooth experience across desktop, tablet, and mobile devices.<br>
+This project demonstrates the power of React for building interactive, dynamic user interfaces with clean, reusable components.
+The dashboard is designed to display real-time data, with customizable widgets and an intuitive layout that 
+makes it easy to visualize and manage information.
 _____________________________________________________________________________________________________________
 
 Technologies used:
